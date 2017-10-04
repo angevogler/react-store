@@ -1,0 +1,118 @@
+header {
+  background-color: #628395;
+  padding: 1% 1.5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  .title {
+    text-align: center;
+
+    h3 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: #042744;
+      margin: 0;
+
+      span {
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 65px;
+        color: #9ECDE5;
+        padding-left: 1.5%;
+        margin: 0;
+      }
+    }
+  }
+
+  .main-nav {
+    font-family: 'Playfair Display', serif;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+
+      .nav-symbol a{
+        text-decoration: none;
+        color: #AD243D;
+      }
+    }
+  }
+}
+
+main {
+  margin: 15% 10% 0 10%;
+  font-family: 'Playfair Display', serif;
+  color: #042744;
+}
+
+.shoe-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  .shoe-container {
+    width: 25%;
+    margin: 4%;
+    padding: 0 0 2% 0;
+    border-bottom: 2px solid #628395;
+
+    img {
+      height: 300px;
+    }
+
+    .shoe-info {
+      text-align: center;
+    }
+  }
+}
+
+
+.bag-wrapper {
+  display: flex;
+
+  .bag-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%
+  }
+
+  .bag-info {
+    display: flex;
+
+    img {
+      height: 300px;
+    }
+
+    div {
+    }
+  }
+
+  .bag-subtotal {
+    width: 25%;
+    border: 1px solid  #042744;
+    padding: 0 4% 2% 4%;
+
+    div {
+      border-top: 1px solid  #042744;
+      border-bottom: 1px solid #628395
+    }
+
+
+    p {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
